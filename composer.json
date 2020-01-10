@@ -1,0 +1,23 @@
+{
+    "name": "max/ecommerce",
+    "description": "Exemplo de Ecommerce com Doctrine",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Shumax",
+            "email": "maxcastro.mv@gmail.com"
+        }
+    ],
+     "require": {
+        "doctrine/orm": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecommerce\\": "src\\"
+        }
+    },
+    "scripts":{
+        "doctrine":"doctrine"
+    }
+}
